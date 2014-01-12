@@ -1,0 +1,123 @@
+
+body {
+   border-width: 0px;
+   width: 1008px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 80%;
+}
+table, tr td{
+	font-size: 1em;
+	border-collapse:collapse;
+	border: none;
+}
+label, input { display:block; }
+input.text { margin-bottom:12px; width:95%; padding: .4em;}
+select { margin-bottom:12px;  outline:none; }
+fieldset { padding:0; border:0; margin-top:25px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+
+.actionlink,.actionlink_fancybox{
+   float: left;
+   margin-left:10px;
+}
+
+.button{
+   float: left;
+   margin: 5px;
+}
+
+#logs_container{
+   position: relative;
+   float: left;
+   width: 589px;
+   height: 200px;
+   margin: 5px;
+  border: 2px solid black;
+}
+#logs{
+  margin: 10px;
+}
+#logs_table{
+  width: 425px;
+  
+}
+#status_container{
+   position: relative;
+   float: left;
+   width: 384px;
+   margin: 5px;
+   height: 200px;
+   border: 2px solid black;
+}
+#status{
+  margin: 10px;
+}
+
+#geoip_container{
+   position: relative;
+   float: left;
+   margin: 5px;
+   width: 484px;
+   height: 489px;
+   border: 2px solid black;
+}
+
+#listeners{
+  margin: 10px;
+}
+
+#map_container{
+   position: relative;
+   float: left;
+   margin: 5px;
+   width: 489px;
+   height: 489px;
+   border: 2px solid black;
+}
+#map{
+  margin: 10px;
+}
+
+#scrollbox{  
+   position: relative;
+   float: left;
+   width:450px;  
+   height:100px;  
+   overflow:auto; overflow-x:hidden;  
+}
+
+#logs_scrollbox{  
+   position: relative;
+   float: left;
+   width:425px;  
+   height:180px;  
+   overflow:auto; overflow-x:hidden;  
+}
+
+#geoip_scrollbox{  
+   position: relative;
+   float: left;
+   width:484px;  
+   height:489px;  
+   overflow:auto; overflow-x:hidden;  
+}
+
+#status_scrollbox{  
+   position: relative;
+   float: left;
+   width:384px;  
+   height:200px;  
+   overflow:auto; overflow-x:hidden;  
+}
+
+#logs_buttons{  
+   position: relative;
+   float: left;
+   left: 15px;
+   width:125px;  
+   height:180px;  
+   overflow:auto; overflow-x:hidden;  
+}
