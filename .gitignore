@@ -1,3 +1,4 @@
 uploads/*
 !uploads/index.html
 error_log
+roms/*
