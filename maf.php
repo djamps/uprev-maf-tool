@@ -31,6 +31,16 @@ td {
 </head>
 <body>
 <h3>You can browse/download the <a href="https://github.com/djamps/uprev-maf-tool">source code</a> at github!</h3>
+<h3>Logging params (* = required)</h3>
+<ul>
+<li>* MAF (v)</li>
+<li>* A/F Ratio (bank 1 and 2) (for WB equipped vehicles)</li>
+<li>* Corrections (bank 1 and 2)</li>
+<li>TPS (v) (throttle position)</li>
+<li>APP (v) (pedal position)</li>
+<li>RPM</li>
+<li>Timing</li>
+</ul> 
 <form enctype="multipart/form-data" action="maf.php" method="POST">
 <!--<input type="hidden" name="MAX_FILE_SIZE" value="50000000" />-->
 Choose a file to upload: <input name="uploadedfile" type="file" /><br />
