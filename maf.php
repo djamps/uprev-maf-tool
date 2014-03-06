@@ -43,6 +43,7 @@ ul
 <li>TPS (v) (throttle position)</li>
 <li>APP (v) (pedal position)</li>
 <li>RPM</li>
+<li>Speed</li>
 <li>Timing</li>
 </ul> 
 <form enctype="multipart/form-data" action="maf.php" method="POST">
