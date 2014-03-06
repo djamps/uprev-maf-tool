@@ -45,6 +45,7 @@ ul
 <li>RPM</li>
 <li>Speed</li>
 <li>Timing</li>
+<li>BFS (mS)</li>
 </ul> 
 <form enctype="multipart/form-data" action="maf.php" method="POST">
 <!--<input type="hidden" name="MAX_FILE_SIZE" value="50000000" />-->
