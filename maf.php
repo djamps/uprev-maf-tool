@@ -27,6 +27,10 @@ td {
 .odd td {
 	border-bottom: 1px solid #cef; 
 }
+ul
+{
+    list-style-type: none;
+}
 </style>
 </head>
 <body>
