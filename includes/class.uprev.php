@@ -49,7 +49,7 @@ class uprev {
     $this->rpm_min = isset($_REQUEST['rpm_min'])?$_REQUEST['rpm_min']:'';
     $this->rpm_max = isset($_REQUEST['rpm_max'])?$_REQUEST['rpm_max']:'';
     $this->appv_min = isset($_REQUEST['appv_min'])?$_REQUEST['appv_min']:'';
-    $this->appv_max = isset($_REQUEST['appv_min'])?$_REQUEST['appv_max']:'';
+    $this->appv_max = isset($_REQUEST['appv_max'])?$_REQUEST['appv_max']:'';
     $this->sched_min = isset($_REQUEST['sched_min'])?$_REQUEST['sched_min']:'';
     $this->sched_max = isset($_REQUEST['sched_max'])?$_REQUEST['sched_max']:'';
     $this->tpsv_min = isset($_REQUEST['tpsv_min'])?$_REQUEST['tpsv_min']:'';
