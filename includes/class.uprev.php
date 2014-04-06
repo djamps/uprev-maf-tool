@@ -24,8 +24,8 @@ class uprev {
                     'time'=>'/^time$/i',
                     'corr1'=>'/corr-b1.+\(%\)/i',
                     'corr2'=>'/corr-b2.+\(%\)/i',
-                    'afr1'=>'/(wb-b1|lc-1|\(afr\)).+(wb-b1|lc-1|\(afr\))/i',
-                    'afr2'=>'/(wb-b2|lc-1|\(afr\)).+(wb-b2|lc-1|\(afr\))/i',
+                    'afr1'=>'/(NB-O2.+1-B1|wb-b1|lc-1|\(afr\)).+(wb-b1|lc-1|\(afr\)|\(V\))/i',
+                    'afr2'=>'/(NB-O2.+1-B2|wb-b2|lc-1|\(afr\)).+(wb-b2|lc-1|\(afr\)|\(V\))/i',
                     'sched-ms'=>'/(Base Fuel Schedule)|(b-fuel.+\(ms\))/i',
                     'rpm'=>'/rpm.+\(rpm\)/i',
                     'timing'=>'/ign timing.+\(btdc\)/i',
@@ -247,7 +247,7 @@ class uprev {
     echo '<table cellpadding="0" cellspacing="0" style="width: 320px"><thead><tr>
       <th>MAF(v)</th>
       <th>AFR 1/2 (Cor.)</th>
-      <th>Hits</th>
+      <th>Samples</th>
     </tr></thead><tbody>';
     foreach ( $this->maftable as $n => $cor ) {
       if ( $cor['tot'] > 0 ) {

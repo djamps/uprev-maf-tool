@@ -38,7 +38,8 @@ ul
 <h3>Logging params (* = required)</h3>
 <ul>
 <li>* MAF (v) (mas-v)</li>
-<li>* A/F Ratio (bank 1 and 2)</li>
+<li>* A/F Ratio (bank 1 and 2) * wideband equipped models late ('04+)</li>
+<li>* NB Sensor 1 (bank 1 and 2) * non-wideband equipped models (early '04 or older)</li>
 <li>* Corrections (bank 1 and 2)</li>
 <li>TPS (v) (throttle position)</li>
 <li>APP (v) (pedal position)</li>
@@ -54,7 +55,7 @@ Choose a file to upload: <input name="uploadedfile" type="file" /><br />
 
 <?php
 ini_set('display_errors',0);
-ini_set('error_reporting',E_NONE);
+//ini_set('error_reporting',E_NONE);
 $file = '';
 $target_path = "uploads/";
 if ( isset($_REQUEST['submit']) && $_REQUEST['submit'] == 'Upload File' ) {
